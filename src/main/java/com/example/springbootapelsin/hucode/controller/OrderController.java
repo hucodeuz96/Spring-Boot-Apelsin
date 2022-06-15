@@ -1,7 +1,6 @@
 package com.example.springbootapelsin.hucode.controller;
 
 import com.example.springbootapelsin.hucode.dto.OrderDto;
-import com.example.springbootapelsin.hucode.entity.Order;
 import com.example.springbootapelsin.hucode.repository.OrderRepository;
 import com.example.springbootapelsin.hucode.service.OrderService;
 import lombok.RequiredArgsConstructor;
