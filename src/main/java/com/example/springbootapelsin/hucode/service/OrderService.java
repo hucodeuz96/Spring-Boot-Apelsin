@@ -1,7 +1,6 @@
 package com.example.springbootapelsin.hucode.service;
 
 import com.example.springbootapelsin.hucode.dto.OrderDto;
-import com.example.springbootapelsin.hucode.entity.Customer;
 import com.example.springbootapelsin.hucode.entity.Detail;
 import com.example.springbootapelsin.hucode.entity.Invoice;
 import com.example.springbootapelsin.hucode.entity.Order;
@@ -11,18 +10,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
 
 import java.math.BigDecimal;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
 
-/**
- * @author "Husniddin Ulachov"
- * @created 10:48 AM on 6/12/2022
- * @project spring-boot-Apelsin
- */
+
 @Service
 @RequiredArgsConstructor
 public class OrderService {

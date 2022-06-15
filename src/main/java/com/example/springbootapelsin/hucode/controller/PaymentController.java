@@ -1,12 +1,9 @@
 package com.example.springbootapelsin.hucode.controller;
 
 import com.example.springbootapelsin.hucode.dto.PaymentDto;
-import com.example.springbootapelsin.hucode.dto.ProductDto;
-import com.example.springbootapelsin.hucode.entity.Payment;
 import com.example.springbootapelsin.hucode.service.OrderService;
 import com.example.springbootapelsin.hucode.service.PaymentService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

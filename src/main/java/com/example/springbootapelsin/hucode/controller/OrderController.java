@@ -23,7 +23,7 @@ public class OrderController {
     private final OrderService orderService;
     private final OrderRepository repository;
 
-    @GetMapping
+    @GetMapping()
     public String getAll(Model model) {
         orderService.getAll(model);
         return "order/list";
